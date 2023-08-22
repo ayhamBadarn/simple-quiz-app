@@ -1,4 +1,4 @@
-#simple-quiz-app
+# Simple Quiz
 
 This uncomplicated Vue.js app efficiently manages multi-choice tests, providing an intuitive user interface for both test-taking and evaluation.
 
