@@ -4,7 +4,7 @@ import { useRoute } from 'vue-router'
 import AppCard from '../components/AppCard.vue'
 import QuizChoices from '../components/QuizChoices.vue'
 import QuizCompleted from '../components/QuizCompleted.vue'
-import axios from '../plugins/axios';
+import axios from '../plugins/axios'
 
 const { params } = useRoute()
 const quiz = ref(null)
