@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-axios.defaults.baseURL = `http://localhost:7000`
+axios.defaults.baseURL = `https://simple-quiz-server.onrender.com/`
 
 export const authHeader = (token) => ({
   Authorization: `Bearer ${token}`
