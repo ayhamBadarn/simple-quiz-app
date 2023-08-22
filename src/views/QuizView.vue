@@ -4,7 +4,7 @@ import { useRoute } from 'vue-router'
 import AppCard from '../components/AppCard.vue'
 import QuizChoices from '../components/QuizChoices.vue'
 import QuizCompleted from '../components/QuizCompleted.vue'
-import axios from "axios"
+import axios from '../../plugins/axios';
 
 const { params } = useRoute()
 const quiz = ref(null)
@@ -40,7 +40,7 @@ const nextQuestion = () => {
 }
 
 onMounted(async () => {
-  const endPoint = `http://localhost:7000/api/quizzes/${params.quiz}`
+  const endPoint = `/api/quizzes/${params.quiz}`
   const req = await axios.get(endPoint)
 
   quiz.value = req.data.data
