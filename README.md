@@ -1,3 +1,6 @@
+#simple-quiz-app
+
+This uncomplicated Vue.js app efficiently manages multi-choice tests, providing an intuitive user interface for both test-taking and evaluation.
 
 ### Application Description:
 
@@ -32,11 +35,3 @@ they can generate new tests, modify existing ones, or delete tests as needed. Mo
 ### Conclusion:
 
 By employing Vue.js 3 and Vite technologies, this application provides a seamless and efficient experience for creating and taking tests. Through integration with vee-validate, yup, and axios, users can trust data accuracy and efficient server communication. This straightforward testing application caters comprehensively to the needs of teachers, students, and learners alike, marrying high performance with user-friendly operation.
-
-### Vue 3 + Vite
-
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-### Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
